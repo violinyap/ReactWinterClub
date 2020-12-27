@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Main from "./screens/Main";
+import Footer from './components/Footer';
+/*
 function App() {
   return (
     <div className="App">
@@ -20,6 +22,14 @@ function App() {
       </header>
     </div>
   );
+}
+*/
+
+function App() {
+  return (
+    <Main/>
+ 
+  )
 }
 
 export default App;
