@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from '../components/NavBar2';
+import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import {Card} from '../components/Card';
 
@@ -35,12 +35,14 @@ export default class Main extends React.Component {
                     <Card color='red' name={names[0]}/>
                     <Card color='yellow' name={names[1]}/>
                     <Card color='green'  name={names[2]}/>
-
                     {names.map((nama)=>
                         <Card color='purple'  name={nama}/>
                     )}
+                      {names.map((nama)=>
+                        <Card color='purple'  name={nama}/>
+                    )}
                 </div>
-
+             
                 {names.map((nama)=>
                     <Card color='pink'  name={nama}/>
                  )}

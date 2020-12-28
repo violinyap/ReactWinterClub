@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Main from "./screens/Main";
 import Footer from './components/Footer';
+import Travel from './screens/Travel'
+import 'bootstrap/dist/css/bootstrap.min.css';
 /*
 function App() {
   return (
@@ -27,8 +29,7 @@ function App() {
 
 function App() {
   return (
-    <Main/>
- 
+    <Travel />
   )
 }
 
